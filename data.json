@@ -1,0 +1,22 @@
+{
+  "happy":[
+    {
+      "name":"刚出生",
+      "img":["src/assets/images/1.jpg","src/assets/images/2.jpg","src/assets/images/3.jpg","src/assets/images/4.jpg"]
+    },
+    {
+      "name":"六个月",
+      "img":["src/assets/images/5.jpg","src/assets/images/6.jpg","src/assets/images/7.jpg","src/assets/images/8.jpg"]
+    },
+    {
+      "name":"一岁了",
+      "img":["src/assets/images/9.jpg","src/assets/images/10.jpg"]
+    }
+  ],
+  "home":{
+
+  },
+  "introduce":{
+
+  }
+}
