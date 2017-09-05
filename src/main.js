@@ -15,6 +15,7 @@ import introduce from './components/introduce.vue'
 import etc from './components/etc.vue'
 import contact from './components/contact.vue'
 import happy from './components/happy.vue'
+import hobby from './components/hobby.vue'
 
 // 使用router
 Vue.use(Router)
@@ -29,6 +30,10 @@ require('./assets/css/base.css');
 
 // 定义路由
 const routes = [
+  {
+    path:'/',
+    redirect: '/home' //重定向，设置默认路由
+  },
   {
     path:'/home',
     component: home
@@ -48,6 +53,10 @@ const routes = [
   {
     path:'/happy',
     component: happy
+  },
+  {
+    path:'/hobby',
+    component: hobby
   },
 ]
 const router = new Router({

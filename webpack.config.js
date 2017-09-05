@@ -20,8 +20,12 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.css$/,
+        test: /\.css$/,  //打包 .css文件
         loader: 'style-loader!css-loader'
+      },
+      {
+        test: /\.less/,  //打包 .less文件
+        loader:'style-loader!css-loader!less-loader'
       },
       {
         test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
@@ -33,9 +37,15 @@ module.exports = {
         query: {
           name: '[name].[ext]?[hash]'
         }
-      }
+      },
+      {
+        test: /\.js$/,  // 将.js文件中的es6语法转成es5语法
+        loader:'babel-loader',
+        exclude:/node_modules/
+      },
     ]
   },
+
   devServer: {
     historyApiFallback: true,
     noInfo: true

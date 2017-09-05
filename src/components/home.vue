@@ -7,13 +7,13 @@
       <ul>
         <li><router-link to="/happy">开心时光</router-link></li>
         <li><router-link to="/">特长才艺</router-link></li>
-        <li><router-link to="/">爱好</router-link></li>
+        <li><router-link to="/hobby">爱好</router-link></li>
         <li><router-link to="/">梦想</router-link></li>
       </ul>
     </div>
   </div>
 </template>
-<style scoped="scoped">
+<style scoped="scoped" lang="less">
   .home{
     color: olive;
   }

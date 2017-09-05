@@ -2,10 +2,10 @@
   <div class="header">
     <div class="header-wrapper">
       <ul class="nav">
-        <li><router-link to="/home">我</router-link></li>
-        <li><router-link to="/introduce">我的经历</router-link></li>
-        <li><router-link to="/etc">我的家人</router-link></li>
-        <li><router-link to="/contact">联系我们</router-link></li>
+        <li><router-link to="/home">主页</router-link></li>
+        <li><router-link to="/introduce">介绍页</router-link></li>
+        <li><router-link to="/etc">其他页</router-link></li>
+        <li><router-link to="/contact">联系页</router-link></li>
       </ul>
     </div>
   </div>
