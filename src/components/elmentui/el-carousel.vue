@@ -15,11 +15,31 @@
     margin: 0;
   }
 
-  .el-carousel__item:nth-child(2n) {
-    background-color: orangered;
+  .el-carousel__item:nth-child(3) {
+    background: url("../../../static/a.jpg") no-repeat;
+    background-size: cover;
   }
 
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: palevioletred;
+  .el-carousel__item:nth-child(4) {
+    background: url("../../../static/b.jpg") no-repeat;
+    background-size: cover;
+  }
+  .el-carousel__item:nth-child(5) {
+    background: url("../../../static/5.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .el-carousel__item:nth-child(6) {
+    background: url("../../../static/6.jpg") no-repeat;
+    background-size: cover;
+  }
+  .el-carousel__item:nth-child(7) {
+    background: url("../../../static/7.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .el-carousel__item:nth-child(8) {
+    background: url("../../../static/8.jpg") no-repeat;
+    background-size: cover;
   }
 </style>
