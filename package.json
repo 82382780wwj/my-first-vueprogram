@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "better-scroll": "^1.2.3",
+    "echarts": "^3.7.2",
     "element-ui": "^1.4.2",
     "iscroll": "^5.1.0",
     "mint-ui": "^2.2.9",

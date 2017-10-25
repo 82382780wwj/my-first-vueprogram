@@ -28,6 +28,7 @@ var appData=require('../data.json');
 var happy=appData.happy;
 var home=appData.home;
 var introduce=appData.introduce;
+var etc=appData.etc;
 
 var apiRoutes=express.Router();
 
@@ -46,6 +47,12 @@ apiRoutes.get('/home',function (req,res) {
 apiRoutes.get('/introduce',function (req,res) {
   res.json({
     data:introduce
+  });
+});
+
+apiRoutes.get('/etc',function (req,res) {
+  res.json({
+    data:etc
   });
 });
 

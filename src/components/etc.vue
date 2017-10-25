@@ -1,22 +1,59 @@
 <template>
   <div class="tec">
-    其他页面
-    <ul>
-      <li v-for="article in articles">
-        {{article.text}}
-      </li>
-    </ul>
+    <div class="img-fa">
+      <img :src="bgurl" alt="">
+    </div>
+    <div class="imgli-fa clearfix">
+      <div class="imgli left" v-for="etcs in etc">
+        <div class="imgli-imgfa">
+          <router-link :to="{ path:'/detail', name:'detail', query:{ id:etcs.id}}"><img :src="etcs.slideshow[0]" alt=""></router-link>
+        </div>
+        <p class="time">{{etcs.time}}</p>
+        <p class="place">拍摄于{{etcs.place}}</p>
+      </div>
+    </div>
   </div>
 </template>
-<style scoped="scoped">
-.tec{
-  color: cadetblue;
-}
-  li{
-    background: palegreen;
+<style scoped="scoped" lang="less">
+  .img-fa {
     width: 100%;
-    height: 10px;
-    margin-bottom: 1px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+  .left {
+    float: left;
+  }
+  .imgli:nth-of-type(odd){
+    margin-right: 4%;
+  }
+  .imgli{
+    width: 48%;
+    margin-bottom: 10px;
+    .imgli-imgfa{
+      width: 100%;
+      overflow: hidden;
+      height: 140px;
+      a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+      }
+      img{
+        width: 100%;
+      }
+    }
+    .time{
+      font-size: 12px;
+      color: #9b9b9b;
+      padding: 5px 0px 2px 10px;
+    }
+    .place{
+      font-size: 14px;
+      color: #9b9b9b;
+      padding: 0px 0px 15px 10px;
+    }
   }
 </style>
 <script>
@@ -24,20 +61,15 @@
     name:'etc',
     data(){
       return{
-        articles:[]
+        bgurl:'../../static/2.jpg',
+        etc:[]
       }
     },
-    mounted: function () {
-      this.$http.jsonp('https://api.douban.com/v2/movie/top250?count=10',{},{
-        headers:{},
-        emulateJSON: true
-      }).then(function (response) {
-        // 这里是处理正确的回调
-        this.articles=response.data.subjects
-      }),function () {
-        // 这里是处理错误的回调
-        console.log(response)
-      }
+    created(){
+      this.$http.get('/api/etc').then(function (respones) {
+        console.log(respones.data.data)
+        this.etc = respones.data.data
+      })
     }
   }
 </script>

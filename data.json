@@ -40,10 +40,154 @@
         "static/a.jpg","static/10.jpg","static/a.jpg","static/10.jpg","static/a.jpg","static/10.jpg","static/a.jpg","static/10.jpg","static/a.jpg"]
     }
   ],
-  "home":{
-
-  },
+  "etc":[
+    {
+      "id": "1-01",
+      "time": "2017/01/01",
+      "place": "安徽蚌埠",
+      "describe": "刚刚吃饱。。。。。。。。。。。。。",
+      "slideshow":["static/1.jpg","static/2.jpg","static/3.jpg","static/4.jpg"]
+    },
+    {
+      "id": "1-02",
+      "time": 20000,
+      "place": "浙江台州",
+      "describe": "刚刚吃饱刚刚吃饱。。。。。。。。。。。。。",
+      "slideshow":["static/5.jpg","static/6.jpg","static/7.jpg","static/8.jpg"]
+    },
+    {
+      "id": "1-03",
+      "time": 20000,
+      "place": "安徽蚌埠",
+      "describe": "刚刚吃饱刚刚吃饱刚刚吃饱。。。。。。。。。。。。。",
+      "slideshow":["static/a.jpg","static/b.jpg","static/3.jpg","static/4.jpg"]
+    },
+    {
+      "id": "1-04",
+      "time": 20000,
+      "place": "广东汕头",
+      "describe": "刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱。。。。。。。。。。。。。",
+      "slideshow":["static/7.jpg","static/8.jpg","static/9.jpg","static/10.jpg"]
+    },
+    {
+      "id": "1-05",
+      "time": 20000,
+      "place": "安徽蚌埠",
+      "describe": "刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱。。。。。。。。。。。。。",
+      "slideshow":["static/1.jpg","static/2.jpg","static/3.jpg","static/4.jpg"]
+    },
+    {
+      "id": "1-06",
+      "time": 20000,
+      "place": "安徽蚌埠",
+      "describe": "刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱。。。。。。。。。。。。。",
+      "slideshow":["static/1.jpg","static/2.jpg","static/3.jpg","static/4.jpg"]
+    },
+    {
+      "id": "1-07",
+      "time": 20000,
+      "place": "安徽蚌埠",
+      "describe": "刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱刚刚吃饱。。。。。。。。。。。。。",
+      "slideshow":["static/5.jpg","static/3.jpg","static/2.jpg","static/8.jpg"]
+    }
+  ],
   "introduce":{
-
+    "total": "3",
+    "1":[
+      {
+        "name":"巴拉巴拉",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉巴拉",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉巴拉",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉巴拉",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉巴拉",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉巴拉",
+        "age":"18",
+        "爱好":"跑步"
+      }
+    ],
+    "2":[
+      {
+        "name":"巴拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴拉~",
+        "age":"18",
+        "爱好":"跑步"
+      }
+    ],
+    "3":[
+      {
+        "name":"巴~拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴~拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴~拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴~拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴~拉~",
+        "age":"18",
+        "爱好":"跑步"
+      },
+      {
+        "name":"巴~拉~",
+        "age":"18",
+        "爱好":"跑步"
+      }
+    ]
   }
 }

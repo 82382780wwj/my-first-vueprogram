@@ -6,7 +6,7 @@ import App from './App.vue'
 import Router from 'vue-router'
 //import MintUI from 'mint-ui';
 import VueResource from 'vue-resource'
-import Element from 'element-ui';
+import Element from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
 //引入项目模块组件
@@ -16,6 +16,7 @@ import etc from './components/etc.vue'
 import contact from './components/contact.vue'
 import happy from './components/happy.vue'
 import hobby from './components/hobby.vue'
+import detail from './components/detail.vue'
 
 // 使用router
 Vue.use(Router)
@@ -58,6 +59,11 @@ const routes = [
     path:'/hobby',
     component: hobby
   },
+  {
+    name:'detail',
+    path:'/detail',
+    component: detail
+  }
 ]
 const router = new Router({
   routes
